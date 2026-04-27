@@ -8,7 +8,7 @@
   <body>
     <div class="wrapper">
       <h1 class="brand">SOLARIS</h1>
-      <form method="post">
+      <form id="loginForm">
         <div>
           <label>
             <span
@@ -19,7 +19,7 @@
           <input
             type="email"
             name="email"
-            id="email=input"
+            id="email-input"
             placeholder="Email"
           />
         </div>
@@ -40,15 +40,16 @@
           <input
             type="password"
             name="password"
-            id="password=input"
+            id="password-input"
             placeholder="Password"
           />
         </div>
-        <button style="color: black">Log In</button>
+        <button type="submit">Log In</button>
       </form>
       <p style="color: white">
         Forgot Password? <a href="login.html">Click here!</a>
       </p>
     </div>
+    <script src="scripts/login.js"></script>
   </body>
 </html>
