@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root{
+    --accent-color: rgb(171, 255, 244);
+    --base-color: rgb(214, 248, 255);
+    --text-color: black;
+    --input-color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Caudex, sans-serif;
+    font-size: 8pt;
+    color: var(--text-color);
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('/assets/images/solaris.png');
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+button, input {
+  font-family: inherit;
+}
+
+.spacer {
+    flex-grow: 21; /* This tells the div to soak up all extra space */
+}
