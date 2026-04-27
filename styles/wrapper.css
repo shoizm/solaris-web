@@ -120,36 +120,12 @@ form div.incorrect input:focus{
     border-color: red;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media Queries for Responsive Design */
-
-/* Large tablets and small desktops */
 @media(max-width:1100px){
     .wrapper{
         width: min(500px, 100%);
     }
 }
 
-/* Tablets */
 @media(max-width:768px){
     .wrapper{
         width: min(380px, 90%);
@@ -164,7 +140,6 @@ form div.incorrect input:focus{
     }
 }
 
-/* Large phones and small tablets */
 @media(max-width:480px){
     .wrapper{
         width: min(320px, 95%);

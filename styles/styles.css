@@ -19,7 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('../../assets/images/solaris.png');
+    background-image: url(/assets/images/solaris.png);
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -30,8 +30,4 @@ body{
 
 button, input {
   font-family: inherit;
-}
-
-.spacer {
-    flex-grow: 21; /* This tells the div to soak up all extra space */
 }
