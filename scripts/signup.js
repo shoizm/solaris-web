@@ -30,7 +30,7 @@ localStorage.setItem('userData', JSON.stringify(newUser));
 
 alert('Account has been created, you can now log in.');
 
-window.location.href = "login.html";
+window.location.href = "index.html";
 
 
 

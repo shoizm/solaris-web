@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Solaris | Dashboard</title>
+    <link rel="stylesheet" href="styles/dashboard/styles.css" />
+    <link rel="stylesheet" href="styles/dashboard/column.css" />
+    <link rel="stylesheet" href="styles/dashboard/dashboard-container.css" />
+    <link rel="stylesheet" href="styles/dashboard/widgets.css" />
+  </head>
+  <body>
+    <div class="dashboard-container">
+      <div class="left-column">
+        <h1>Discord</h1>
+        <div class="discord-wrapper">
+          <iframe
+            src="https://discord.com/widget?id=1498380376777691169&theme=dark"
+            width="100%"
+            height="400"
+            allowtransparency="true"
+            frameborder="0"
+            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+          ></iframe>
+        </div>
+      </div>
+      <div class="center-column">
+        <h1>Feed</h1>
+      </div>
+      <div class="right-column">
+        <h1>Live</h1>
+        <div id="live-feed"></div>
+      </div>
+    </div>
+    <script src="scripts/holodex.js"></script>
+  </body>
+</html>

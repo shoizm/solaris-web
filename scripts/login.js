@@ -4,8 +4,6 @@ signupForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
 const emailInput = document.getElementById('email-input').value;
-const password = document.querySelector('input[name="password"]').value;
-
 const passwordInput = document.getElementById('password-input').value;
 const savedUser = JSON.parse(localStorage.getItem('userData'));
 
